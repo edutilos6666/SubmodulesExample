@@ -1,0 +1,4 @@
+rootProject.name = 'SubmodulesExample'
+include 'Client'
+include 'Restapi'
+

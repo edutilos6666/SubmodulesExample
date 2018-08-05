@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edutilos.client.worker.controller.WorkerMainController">
+   <children>
+      <Label layoutX="282.0" layoutY="31.0" text="TestWorkerController" />
+      <Button fx:id="btnInsert" layoutX="25.0" layoutY="70.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="Insert" onAction="#handleBtnInsert" />
+      <Button fx:id="btnUpdate" layoutX="24.0" layoutY="108.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="Update" />
+      <Button fx:id="btnDelete" layoutX="25.0" layoutY="146.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="Delete" />
+      <Button fx:id="btnFindById" layoutX="26.0" layoutY="181.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindById" />
+      <Button fx:id="btnFindByName" layoutX="27.0" layoutY="219.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindByName" />
+      <Button fx:id="btnFindByAge" layoutX="28.0" layoutY="257.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindByAge" />
+      <Button fx:id="btnFindByWage" layoutX="29.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindByWage" />
+      <Button fx:id="btnFindByActive" layoutX="29.0" layoutY="330.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindByActive" />
+      <Button fx:id="btnFindAll" layoutX="29.0" layoutY="366.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="FindAll" />
+      <TextField fx:id="fieldUpdate" layoutX="266.0" layoutY="108.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldDelete" layoutX="266.0" layoutY="146.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldFindById" layoutX="266.0" layoutY="181.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldFindByName" layoutX="266.0" layoutY="219.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldFindByAge" layoutX="266.0" layoutY="257.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldFindByWage" layoutX="266.0" layoutY="295.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="fieldFindByActive" layoutX="266.0" layoutY="330.0" prefHeight="26.0" prefWidth="190.0" />
+      <Label layoutX="221.0" layoutY="113.0" text="Id" />
+      <Label layoutX="221.0" layoutY="151.0" prefHeight="16.0" prefWidth="13.0" text="Id" />
+      <Label layoutX="221.0" layoutY="186.0" text="Id" />
+      <Label layoutX="202.0" layoutY="223.0" text="Name" />
+      <Label layoutX="215.0" layoutY="262.0" text="Age" />
+      <Label layoutX="203.0" layoutY="300.0" text="Wage" />
+      <Label layoutX="201.0" layoutY="335.0" text="Active" />
+   </children>
+</AnchorPane>
